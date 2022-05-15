@@ -1,0 +1,24 @@
+{
+  "name": "ashmee Game Of Life",
+  "version": "1.0.0",
+  "description": "JavaScript and TypeScript example starter project",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "devDependencies": {
+    "typescript": "4.7.1-rc",
+    "fp-ts": "2.12.1"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": [
+    "typescript",
+    "javascript"
+  ]
+}
