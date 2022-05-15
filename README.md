@@ -38,4 +38,4 @@ at&nbsp;which this happens is&nbsp;sometimes called a&nbsp;tick. Each generation
 of&nbsp;the preceding&nbsp;one. The
 rules continue to&nbsp;be&nbsp;applied repeatedly to&nbsp;create further generations.
 
-[1]: https://ashmee.github.io/gameOfLifeFPTS/
+[1]: https://ashmee.github.io/gameOfLife/
