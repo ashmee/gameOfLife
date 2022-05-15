@@ -1,16 +1,16 @@
-*** Game Of Life TypeScript with fp-ts
+#  Game Of Life TypeScript with fp-ts
 
-* [Game of Life Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+Check it on my [github pages][1]
 
 
+* [read about Game of Life on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+
+---
 * [TypeScript](https://www.typescriptlang.org/)
 * [fp-ts](https://github.com/gcanti/fp-ts)
 
-See also the introduction blog
-post: **[Starting a TypeScript Project in 2021](https://www.metachris.com/2021/03/bootstrapping-a-typescript-node.js-project/)**
-.
 
-## About
+## About (rules)
 
 The universe of&nbsp;the Game of&nbsp;Life is&nbsp;an&nbsp;infinite, two-dimensional orthogonal grid of&nbsp;square
 cells, each of&nbsp;which is&nbsp;in
@@ -37,3 +37,5 @@ discrete moment
 at&nbsp;which this happens is&nbsp;sometimes called a&nbsp;tick. Each generation is&nbsp;a&nbsp;pure function
 of&nbsp;the preceding&nbsp;one. The
 rules continue to&nbsp;be&nbsp;applied repeatedly to&nbsp;create further generations.
+
+[1]: https://ashmee.github.io/gameOfLifeFPTS/
