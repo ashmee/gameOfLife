@@ -169,7 +169,8 @@ let gameTimeout;
 let generations = 0;
 const stat = document.querySelector<HTMLDivElement>("#generationsCounter");
 
-const gameLoop = (world: World, speed = 100) => {
+
+const gameLoop = (world: World, speed = 50) => {
   gameTimeout && clearTimeout(gameTimeout);
 
   const newGeneration = createNewGeneration(world);
