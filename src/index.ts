@@ -18,7 +18,7 @@ const context = canvas.getContext("2d")!;
 context.fillRect(0, 0, canvas.width, canvas.height);
 context.fillStyle = "#038C3E";
 
-const CELL_SIZE = 10;
+const CELL_SIZE = 12;
 const cellsX = Math.floor(winWidth / CELL_SIZE);
 const cellsY = Math.floor(winHeight / CELL_SIZE);
 
@@ -128,7 +128,7 @@ function createNewGeneration(world: World): World {
               ? alive
               : dead
         ),
-        //распрямляем эйзэры
+        //распрямляем эйзэры (Either)
         flattenTwo
       );
     })
@@ -170,7 +170,7 @@ let generations = 0;
 const stat = document.querySelector<HTMLDivElement>("#generationsCounter");
 
 
-const gameLoop = (world: World, speed = 50) => {
+const gameLoop = (world: World, speed = 56) => {
   gameTimeout && clearTimeout(gameTimeout);
 
   const newGeneration = createNewGeneration(world);
@@ -186,5 +186,5 @@ gameLoop(world);
 const button = document.querySelector<HTMLButtonElement>("#restart");
 button?.addEventListener("click", () => {
   generations = 0;
-  gameLoop(world);
+  gameLoop(generateWorld(cellsX, cellsY, true));
 });
